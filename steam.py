@@ -52,9 +52,9 @@ class Steam:
             "xp": xp,
             "badges": int(counters[0]),
             "games": int(counters[1]),
-            # "inventory": int(counters[2]), # Nothing to show.
+             "inventory": int(counters[2]), # Nothing to show.
             "screenshots": int(counters[3]),
-            # "videos": , # Will be shown after login.
+             "videos": , # Will be shown after login.
             "workshop_items": int(counters[4]),
             "reviews": int(counters[5]),
             "guides": int(counters[6]),
